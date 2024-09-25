@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML: Images and Tables</title>
+  </head>
+  <body>
+    <h1>Traveling the World</h1>
+    <a href="aboutMe.html">About Me</a> <br />
+    <a href="#bottom">Jump to Bottom</a><br /><br />
+    <h2>Places I Have Visited</h2>
+    <p>
+      Here are some images from when I traveled the world. These were my top
+      three favorite places. The food was amazing!
+    </p>
+    <img
+      src="images/master-qingshui.jpg"
+      alt="Statue of Master Quingshui at the Chin Swee Caves Temple"
+    />
+    <img
+      src="images/petronas-twin-towers.jpg"
+      alt="Petronas Twin Towers in KL, Malaysia"
+    />
+    <img
+      src="images/ssaas-mosque.jpg"
+      alt="Sultan Salahuddin Abdul Aziz Masjid in Shah Alam, Malaysia"
+    />
+    <hr />
+    <h2>Favorite Animals</h2>
+    <p>I love many animals, but here are two images of my favorite animals.</p>
+    <figure>
+      <img src="images/angora-rabbit.jpg" alt="Angora rabbit" />
+      <br />
+      <figcaption>This is an Angora rabbit.</figcaption>
+    </figure>
+    <figure>
+      <img src="images/wombat.jpg" alt="Wombat" />
+      <br />
+      <figcaption>This is a wombat.</figcaption>
+    </figure>
+    <hr />
+    <h2>Favorite Movie</h2>
+    <p>
+      Here is a picture of my favorite movie. If you click on it, it will take
+      you to my About Me page. Why? Well... because why not? ;)
+    </p>
+    <a href="aboutMe.html"
+      ><img src="images/minion-in-pool.jpg" alt="Minion toy floating in a pool"
+    /></a>
+    <hr />
+    <p>
+      Down below is a small table of what I do Monday through Wednesday between
+      the hours of 12pm and 5pm.
+    </p>
+    <table id="bottom">
+      <tr>
+        <th bgcolor="cccccc"></th>
+        <th bgcolor="cccccc">Monday</th>
+        <th bgcolor="cccccc">Tuesday</th>
+        <th bgcolor="cccccc">Wednesday</th>
+      </tr>
+      <tr>
+        <th bgcolor="cccccc">12pm</th>
+        <td bgcolor="efefef">Lunch</td>
+        <td bgcolor="efefef">Graphic Design Class</td>
+        <td bgcolor="efefef">Lunch</td>
+      </tr>
+      <tr>
+        <th bgcolor="cccccc">1pm</th>
+        <td bgcolor="efefef" rowspan="5">Schoolwork</td>
+        <td bgcolor="efefef">Lunch</td>
+        <td bgcolor="efefef" rowspan="5">Schoolwork</td>
+      </tr>
+      <tr>
+        <th bgcolor="cccccc">2pm</th>
+        <td bgcolor="efefef" rowspan="3">Schoolwork</td>
+      </tr>
+      <tr>
+        <th bgcolor="cccccc">3pm</th>
+      </tr>
+      <tr>
+        <th bgcolor="cccccc">4pm</th>
+      </tr>
+      <tr>
+        <th bgcolor="cccccc">5pm</th>
+        <td bgcolor="efefef">Dinner</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+<!-- I used the old background color attribute in the table because the row spans did not show up well.-->
